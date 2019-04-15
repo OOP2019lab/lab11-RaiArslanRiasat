@@ -1,0 +1,15 @@
+Q#6 
+(a)
+we keep age prtected to keep fname and lname hidden for the forward class and age as protected mamber for the inherited as public and protected.
+(b)
+person::fname:cannot access private member declared in class 'person'
+member "person::fname" (declared at line 8 of "c:\Users\TEMP.DOMAIN.002\Desktop\LAb11\LAb11\person.h") is inaccessible	LAb11	c:\Users\TEMP.DOMAIN.002\Desktop\LAb11\LAb11\student.cpp	26
+member "person::lname" (declared at line 9 of "c:\Users\TEMP.DOMAIN.002\Desktop\LAb11\LAb11\person.h") is inaccessible	LAb11	c:\Users\TEMP.DOMAIN.002\Desktop\LAb11\LAb11\student.cpp	26
+person::lname:cannot access private member declared in class 'person'
+(C)
+
+we get this error because fname and lname are private members in class person and we cannnot access them without getters and setters.we use getters and setter to get access on private members of class .
+Q#8
+when we make inheritence as protected then the public members and protected members of a parent class become protected and private members become hidden for childern . In the same sense fname,lname,are hiddeen to faculty and student and age become prtected to students and faculty.this is the same case with the data members functions.
+Q# 9
+when we make inheritence as private then the public members become private and private and protected members of a parent class become protected become hidden for childern . In the same sense fname,lname,age are hiddeen to faculty and student.
